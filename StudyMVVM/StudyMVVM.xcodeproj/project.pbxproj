@@ -99,12 +99,8 @@
 		0737EDBB28E5863F00E4057F /* StudyMVVM */ = {
 			isa = PBXGroup;
 			children = (
-				0737EDBC28E5863F00E4057F /* AppDelegate.swift */,
-				0737EDBE28E5863F00E4057F /* SceneDelegate.swift */,
-				0737EDC028E5863F00E4057F /* ViewController.swift */,
-				0737EDC228E5863F00E4057F /* Main.storyboard */,
-				0737EDC528E5864100E4057F /* Assets.xcassets */,
-				0737EDC728E5864100E4057F /* LaunchScreen.storyboard */,
+				0737EDEC28E5871F00E4057F /* App */,
+				0737EDEE28E5876E00E4057F /* View */,
 				0737EDCA28E5864100E4057F /* Info.plist */,
 			);
 			path = StudyMVVM;
@@ -125,6 +121,34 @@
 				0737EDDF28E5864100E4057F /* StudyMVVMUITestsLaunchTests.swift */,
 			);
 			path = StudyMVVMUITests;
+			sourceTree = "<group>";
+		};
+		0737EDEC28E5871F00E4057F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0737EDED28E5875600E4057F /* Storyboard */,
+				0737EDC528E5864100E4057F /* Assets.xcassets */,
+				0737EDBC28E5863F00E4057F /* AppDelegate.swift */,
+				0737EDBE28E5863F00E4057F /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		0737EDED28E5875600E4057F /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0737EDC228E5863F00E4057F /* Main.storyboard */,
+				0737EDC728E5864100E4057F /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		0737EDEE28E5876E00E4057F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0737EDC028E5863F00E4057F /* ViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
